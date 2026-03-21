@@ -47,6 +47,13 @@ body {
     padding: var(--padding_arriba_abajo) var(--padding_izquierda_derecha);
 }
 
+.titulos_secciones {
+    font-size: var(--titulos_h2);
+    color: var(--color_primario);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 /*---Navbar */
 .header {
     width: 100%;
@@ -147,6 +154,48 @@ body {
     
 }
 
+/*--seccion sobremi*/
+.seccion_principal {
+}
+.estilo_secciones_globales {
+}
+.seccion_principal_article {
+}
+.seccion_principal_h2 {
+}
+.seccion_principal_h3 {
+}
+.seccion_principal_p {
+}
+.btn_contenedor {
+}
+.boton {
+}
+.img_principal {
+}
+.seccion_SobreMi {
+    background-color: var(--color_secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.article_sobreMi {
+}
+.h2_sobreMi {
+}
+.parrafo_sobreMi {
+    color: var(--color_blanco);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imagen_sobreMi {
+    width: 100%;
+    max-width: 350px;
+}
+
+
 
 /*---Dispositivos escritorio*/
 @media (min-width:768px){
@@ -211,5 +260,26 @@ body {
     object-fit: cover;
     object-position: left;
 }
+/* seccion Sobre mí */
 
+.article_sobreMi{
+    height: 100%;
+}
+
+
+
+
+.seccion_SobreMi {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+     gap: 30px;
+
+}
+
+.parrafo_sobreMi {
+    max-width: 400px;
+
+}
+ 
 }
